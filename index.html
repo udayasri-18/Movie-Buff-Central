@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Buff Central - Marvel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Movie Buff Central - Marvel Cinematic Universe</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="character-bios.html">Character Bios</a></li>
+                <li><a href="trivia.html">Trivia Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="intro">
+            <h2>Welcome to the Marvel Cinematic Universe Fan Page</h2>
+            <p>This is your one-stop hub for all things Marvel. Learn about your favorite characters, watch trailers, and test your knowledge with a trivia quiz!</p>
+            <img src="https://i.redd.it/3z5zi9sfehu21.jpg" alt="MCU Poster" id="mimg">
+        </section>
+
+        <section class="trailers">
+            <h2>Watch Trailers</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/6ZfuNTqbHE8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        </section>
+
+        <section class="quote-of-the-day">
+            <h2>Quote of the Day</h2>
+            <blockquote id="quote"></blockquote>
+            <button onclick="displayQuote()">Get Quote</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

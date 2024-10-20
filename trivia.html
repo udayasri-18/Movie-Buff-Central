@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Quiz - Marvel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Marvel Cinematic Universe Trivia Quiz</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="character-bios.html">Character Bios</a></li>
+                <li><a href="trivia.html">Trivia Quiz</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Test Your Knowledge!</h2>
+        <form id="quiz-form">
+            <div class="question">
+                <label>1. Who is the first Avenger?</label>
+                <select id="q1">
+                    <option value="Iron Man">Iron Man</option>
+                    <option value="Captain America">Captain America</option>
+                    <option value="Thor">Thor</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label>2. What is Thor's hammer called?</label>
+                <select id="q2">
+                    <option value="Stormbreaker">Stormbreaker</option>
+                    <option value="Mjolnir">Mjolnir</option>
+                    <option value="Gungnir">Gungnir</option>
+                </select>
+            </div>
+
+            <div class="question">
+                <label>3. Who is Tony Stark's AI assistant?</label>
+                <select id="q3">
+                    <option value="JARVIS">JARVIS</option>
+                    <option value="FRIDAY">FRIDAY</option>
+                    <option value="EDITH">EDITH</option>
+                </select>
+            </div>
+
+            <button type="button" onclick="submitQuiz()">Submit</button>
+            <div id="result"></div>
+        </form>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
